@@ -1,0 +1,45 @@
+.newTodo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#todo {
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+/* Add styles for when the input is focused */
+#todo:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 5px #2196f3;
+}
+.button {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 5px;
+}
+
+.button:hover {
+    background-color: #5587b7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
