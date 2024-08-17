@@ -1,27 +1,24 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",
-    // config related to code formatting
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "[javascript]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascriptreact]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": null
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "javascript.validate.enable": false, //disable all built-in syntax checking
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.fixAll.tslint": true,
-        "source.organizeImports": true
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.tslint": "explicit",
+      "source.organizeImports": "explicit"
     },
-    "eslint.alwaysShowStatus": true,
-    // emmet
+  
     "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+      "javascript": "javascriptreact"
     }
-}
+  }
+  
